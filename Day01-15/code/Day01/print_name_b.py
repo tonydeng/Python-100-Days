@@ -16,3 +16,9 @@ print(name.capitalize())
 
 name = str(input("请输入姓名："))
 print(name.upper())
+
+
+# 输出“《将进酒》是唐代诗人李白的诗作”
+a,b,c = '李白','将进酒','唐代'
+
+print('《{1}》是{2}诗人{0}的诗作'.format(a,b,c))
